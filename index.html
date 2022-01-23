@@ -258,24 +258,6 @@
         // Append to the dom
         var el = document.getElementById("ranGame");
         el.innerHTML = game_names[ranGame_final] + ": " + ranGame_final;
-
-
-        /*
-        // Grab cat from select and use that to filter the games array
-        /*var e = document.getElementById("catSelect");
-        var strCat = e.value;
-        var catGames = _.filter(games, { cat: strCat }).map((g) => g.title);
-
-        // Generate random number based on length of the catGames
-        var randomIndex = Math.floor(Math.random() * catGames.length);
-
-        // Use the index on the catGames array
-        var ranGame = catGames[randomIndex];
-
-        // Append to the dom
-        var el = document.getElementById("ranGame");
-        el.innerHTML = ranGame;
-        */
       };
     </script>
   </body>
